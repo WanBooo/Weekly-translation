@@ -72,7 +72,7 @@ Evil Twin的一个有效的变种是建立一个具有相同SSID的系统，然�
 
 如果一切都失败了，你绝对必须有互联网接入，ICMPTX通常在需要通过代理认证的无线网络上工作。这些包括一些学校和大学，酒店，咖啡店，图书馆，餐馆和其他公共Wi-Fi AP。它依赖于ICMP（ping所使用的协议）通常在AP上启用并传递到预期的IP地址或域。由于它不是TCP，它不涉及代理，只是穿过。
 
-- 不要错过[如何使用ICMPTX消除身份验证代理](https://null-byte.wonderhowto.com/how-to/hack-wi-fi-evading-authentication-proxy-using-icmptx-0150347/)
+- 不要错过:[如何使用ICMPTX消除身份验证代理](https://null-byte.wonderhowto.com/how-to/hack-wi-fi-evading-authentication-proxy-using-icmptx-0150347/)
 
 这种攻击非常复杂和耗时，不适合新手进行Hacking。由于ICMP只能在每个数据包中携带少量的数据，所以速度很慢，但是在实际上必须有Internet访问且数据量较小的情况下（例如电子邮件），这种方法效果很好。
 
