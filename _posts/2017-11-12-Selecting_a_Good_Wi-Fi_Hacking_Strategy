@@ -2,8 +2,8 @@
 layout: post
 title: "选择一个好的WiFi Hacking策略"
 description: "如何选择一个好的WiFi Hacking策略"
-categories: [uncategorized]
-tags: [技巧]
+categories: [无线安全]
+tags: [无线安全]
 redirect_from:
 - /2017/11/12/
 ---
@@ -30,7 +30,7 @@ WEP或着叫Wireless Equivalent Privacy（无线等效保密）是第一个被�
 
 WEP很容易被Aircrack-ng使用统计破解方法破解。这几乎是肯定成功的（不要证明我错了）。 如果你能收集足够的数据包（这是关键），这是一个简单的过程。这是你需要Aircrack-ng兼容无线网卡的原因之一。你必须能够同时注入数据包来捕获数据包。大多数现成的无线网卡都无能为力。
 
-- 不要错过：[怎么用Aircrack-ng破解WEP密码](https://null-byte.wonderhowto.com/how-to/hack-wi-fi-cracking-wep-passwords-with-aircrack-ng-0147340/)
+- 不要错过：[用Aircrack-ng破解WEP密码](https://null-byte.wonderhowto.com/how-to/hack-wi-fi-cracking-wep-passwords-with-aircrack-ng-0147340/)
 
 要知道AP是否使用WEP，只需将鼠标悬停在AP上，即可显示其加密算法。请注意，这种方法只适用于AP使用WEP。它不适用于无线上的任何其他加密方案。如果你足够幸运找到一个WEP的无线接入点，你有希望可以在10分钟内破解密码，虽然有人声称在不到3分钟的时间内完成了这个任务。
 
@@ -40,8 +40,8 @@ WEP很容易被Aircrack-ng使用统计破解方法破解。这几乎是肯定成
 
 这个PIN码比较简单，只有8个数字，其中一个是校验和，只剩下7个数字或10,000,000个可能性。单个CPU通常可以在几天内计算完这些可能性。虽然这可能看起来很慢，但多次暴力破解PSK（预共享密钥）的可能性可能需要更长的时间。
 
-- 不要错过：[如何用Reaver攻破WPS PIN来获取密码](https://null-byte.wonderhowto.com/how-to/hack-wpa-wifi-passwords-by-cracking-wps-pin-0132542/)
-- 不要错过：[如何用Bully攻破WPS PIN来获取密码](https://null-byte.wonderhowto.com/how-to/hack-wi-fi-breaking-wps-pin-get-password-with-bully-0158819/)
+- 不要错过：[用Reaver攻破WPS PIN来获取密码](https://null-byte.wonderhowto.com/how-to/hack-wpa-wifi-passwords-by-cracking-wps-pin-0132542/)
+- 不要错过：[用Bully攻破WPS PIN来获取密码](https://null-byte.wonderhowto.com/how-to/hack-wi-fi-breaking-wps-pin-get-password-with-bully-0158819/)
 
 如果无线AP启用了WPS，这是使用WPA2破解现代无线AP的首选方法。你可以使用Reaver或Bully与Aircrack-ng一起攻破这些WPS PIN。
 
@@ -51,12 +51,12 @@ WEP很容易被Aircrack-ng使用统计破解方法破解。这几乎是肯定成
 
 当客户端连接到AP时，有一个四次握手（4-way handshake），其中预共享密钥（PSK）从客户端机器传输到AP。我们可以捕获该PSK的哈希，然后使用字典或暴力破解。这可能会耗费很多时间，且并不总是成功。成功取决于你使用的字典和足够的时间。
 
-- 不要错过：[如何用Aircrack-ng破解WPA2-PSK密码](https://null-byte.wonderhowto.com/how-to/hack-wi-fi-cracking-wpa2-psk-passwords-using-aircrack-ng-0148366/)
-- 不要错过：[如何用Cowpatty破解WPA2-PSK密码](https://null-byte.wonderhowto.com/how-to/hack-wi-fi-cracking-wpa2-psk-passwords-with-cowpatty-0148423/)
+- 不要错过：[用Aircrack-ng破解WPA2-PSK密码](https://null-byte.wonderhowto.com/how-to/hack-wi-fi-cracking-wpa2-psk-passwords-using-aircrack-ng-0148366/)
+- 不要错过：[用Cowpatty破解WPA2-PSK密码](https://null-byte.wonderhowto.com/how-to/hack-wi-fi-cracking-wpa2-psk-passwords-with-cowpatty-0148423/)
 
 一旦获得了捕获的PSK哈希，就不需要连接到AP。只要有足够的资源，你可以暴力破解任何PSK。
 
-## Evil Twin（伪AP钓鱼）
+## Evil Twin（译者注:伪AP钓鱼）
 
 如果我们不能在AP上破解密码，另一个可以成功的策略就是创建一个与已知AP完全相同的SSID但是由我们控制的Evil Twin —— 一个 AP。 关键是让目标连接到我们的AP，而不是真正的AP。
 
