@@ -3,7 +3,7 @@ layout: post
 title: "用Aircrack-ng破解WEP密码"
 description: "破解WEP"
 categories: [无线安全]
-tags: [无线安全， WEP]
+tags: [无线安全]
 redirect_from:
 - /2017/11/19/
 ---
