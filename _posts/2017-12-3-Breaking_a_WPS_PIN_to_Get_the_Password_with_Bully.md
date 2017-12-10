@@ -73,3 +73,5 @@ WPS代表Wi-Fi Protected Setup（Wi-Fi保护设置），旨在为普通的家庭
 当我们按下回车键，Bully将开始尝试破解WPS PIN。
 
 如果这个AP很容易受到这种攻击，Bully会在3到5个小时内破解出WPS PIN和AP密码。
+
+[原文](https://null-byte.wonderhowto.com/how-to/hack-wi-fi-breaking-wps-pin-get-password-with-bully-0158819/)
